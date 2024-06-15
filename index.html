@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Z Home Task</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-panel">
+        <div class="box" draggable="true">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="red" />
+          </svg>
+        </div>
+        <div class="box" draggable="true">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" fill="green" />
+          </svg>
+        </div>
+        <div class="box" draggable="true">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <polygon
+              points="12,2 15,11 24,11 17,16 19,24 12,19 5,24 7,16 0,11 9,11"
+              fill="yellow"
+            />
+          </svg>
+        </div>
+        <div class="box" draggable="true">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <polygon points="12,2 22,22 2,22" fill="blue" />
+          </svg>
+        </div>
+        <div class="box" draggable="true">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+              fill="pink"
+            />
+          </svg>
+        </div>
+      </div>
+      <div id="main-container"></div>
+    </div>
+    <div id="color-picker-container">
+      <label for="color-picker">Pick A Color</label>
+      <input type="color" id="color-picker" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
